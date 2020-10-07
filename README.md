@@ -1,5 +1,5 @@
 # Torch Practices
-Understanding useful tools &amp; scripts for the development with PyTorch.
+Collecting useful tools &amp; scripts for the development with PyTorch.
 
 To evaluate model size in RAM use `model_size_counter.py`:
 
