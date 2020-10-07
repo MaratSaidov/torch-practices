@@ -8,6 +8,6 @@ from model_size_counter import RAMSizeCounter
 
 model = Model()
 
-size_counter = RAMSizeCounter(model, input_size=(16,1,256,256))
+size_counter = RAMSizeCounter(model, input_size=sample.size(), device=sample.device())
 _ = size_counter.count_megabytes()
 ```
